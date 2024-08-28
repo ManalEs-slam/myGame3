@@ -1,0 +1,303 @@
+ .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+ */
+
+.app {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1001vh; 
+  background-size: cover;
+  background-image: url("./51188.jpg");
+  background-repeat: no-repeat;
+ 
+}
+
+.square {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.speaker-icon {
+  width: 510px;
+  height: 510px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.start-button {
+  font-size: 210px;
+  padding: 110px 210px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.circle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 110px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.rouge {
+  background-color: red;
+}
+
+.vert {
+ color: green;
+}
+
+.bleu {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.jaune {
+  background-color: yellow;
+}
+
+.gris {
+  background-color: grey;
+}
+
+.rose {
+  background-color: pink;
+}
+
+.noir {
+  background-color: black;
+}
+
+.score-button {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.score-container {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+
+.score-filled {
+  background-color: #007bff; 
+}
+
+
+
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.أحمر {
+  background-color: red;
+}
+
+.أخضر {
+  background-color: green;
+}
+
+.أزرق {
+  background-color: blue;
+}
+
+.برتقالي {
+  background-color: orange;
+}
+
+.أصفر {
+  background-color: yellow;
+}
+
+.رمادي {
+  background-color: gray;
+}
+
+.وردي {
+  background-color: pink;
+}
+
+.أسود {
+  background-color: black;
+}
+
+
+.selected {
+  border: 2px solid rgb(11, 11, 11);
+
+}
+
+
+.selected-color {
+  
+  background-color: #eaa70b; 
+  border: 2px solid #ef5d0f; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.selected-color h1 {
+   margin-left: 5ch; 
+   margin-top: 0;
+   margin-bottom: 0%;
+  font-size: 40px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+audio {
+  display: inline-block; 
+  /* margin-top: 5px; */
+}
+
+
+audio::-webkit-media-controls {
+  display: none;
+}
+
+
+audio {
+  background: url('./laudio.png') no-repeat; 
+  background-size: contain; 
+  width: 50px; 
+  height: 50px; 
+  cursor: pointer; 
+}
+/* 
+.balloon {
+  position: absolute;
+  bottom: 0;
+  animation: balloon-animation 10s ease-in-out; /* Durée de l'animation par défaut */
+/* }
+
+@keyframes balloon-animation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+  }
+  
+ 
+} */ 
+.BUTTON{
+  background-Color: #5bca5f;
+       border: none;
+       color: white;
+       padding: 10px 32px;
+       text-Align: center;
+       text-Decoration: none;
+       display: inline-block;
+       font-Size: 16px;
+       border-Radius: 8px;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+}
