@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# myGame3
+# myGame1
 for children
 =======
 # Getting Started with Create React App
@@ -72,4 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 1f3b422 (version1)
+>>>>>>> 0967ca8 (version2)
